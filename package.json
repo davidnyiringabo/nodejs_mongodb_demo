@@ -48,7 +48,8 @@
     "coverage:browser": "npm run test:browser -- --coverage",
     "upgrade": "npm-check -u && npm audit fix",
     "bump": "bump --tag --push --all",
-    "release": "npm run upgrade && npm run clean && npm test && npm run bump"
+    "release": "npm run upgrade && npm run clean && npm test && npm run bump",
+    "start": "node index"
   },
   "devDependencies": {
     "@babel/polyfill": "^7.12.1",
@@ -72,6 +73,8 @@
   "dependencies": {
     "@jsdevtools/ono": "^7.1.3",
     "call-me-maybe": "^1.0.1",
-    "js-yaml": "^3.13.1"
+    "express": "^4.18.2",
+    "js-yaml": "^3.13.1",
+    "mongoose": "^7.0.2"
   }
 }

@@ -1,0 +1,4 @@
+node_modules
+config.env
+config/default.json
+config/custom-environment-variables.json
